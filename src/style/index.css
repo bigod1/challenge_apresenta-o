@@ -1,0 +1,133 @@
+nav{
+    position: fixed;
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    background-color: aqua;
+
+    width: 100vw;
+    height: 10vh;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    background-color: #288568;
+    color: #C2FFE5;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+#intro{
+    gap: 9.375rem;
+}
+
+.intro_paragraphs{
+    width: 40%;
+}
+
+h1{
+    font-size: 80px;
+}
+
+
+
+#grupo{
+    justify-content: space-around;
+    align-items: center;
+    gap: 9.375rem;
+}
+
+.grupo_paragraphs{
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+
+    height: 400px;
+
+    position: relative;
+}
+
+h2{
+    font-size: 48px
+}
+
+.grupo_paragraphs > p{
+    font-size: 35px;
+}
+
+.img_ilustracao{
+    width: 21.875rem;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.img_medico{
+    width: 31.25rem;
+}
+
+
+#projeto{
+    position: relative;
+}
+
+.projeto_paragraphs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+
+
+    color: rgb(34, 34, 34);
+    width: 50%;
+}
+
+.projeto_paragraphs > p{
+    text-align: center;
+    font-size: 20px;
+}
+
+button{
+    width: 14.375rem;
+    height: 3.4375rem;
+
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .5008px;
+
+    background-color: #C2FFE5;
+    border: .125rem solid black;
+    border-radius: 3.125rem;
+}
+
+button:hover{
+    background-color: #a5e4c9;
+}
+
+.img_logo{
+    position: absolute;
+
+    bottom: 40px;
+    right: 80px;
+}
